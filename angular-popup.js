@@ -198,18 +198,18 @@ angular.module('ui-popup', [])
                 top: popupPosition.top !== undefined ? popupPosition.top + 'px' : 'initial',
                 left: popupPosition.left !== undefined ? popupPosition.left + 'px' : 'initial',
                 right: popupPosition.right !== undefined ? popupPosition.right + 'px' : 'initial',
-                display: 'block',
-                maxHeight: maxHeight
+                display: 'block'
+                //maxHeight: maxHeight
             });
 
             var header = element.find('.popover-title');
             var content = element.find('.popover-content');
             var footer = element.find('.popover-footer');
-            content.css({
-                // Need to figure out where this 4 comes from.
-                maxHeight: maxHeight - footer.outerHeight() - header.outerHeight() - 4,
-                overflow: 'auto'
-            });
+//            content.css({
+//                // Need to figure out where this 4 comes from.
+//                maxHeight: maxHeight - footer.outerHeight() - header.outerHeight() - 4,
+//                overflow: 'auto'
+//            });
 
             if (arrowPosition) {
                 arrow.css(arrowPosition);
