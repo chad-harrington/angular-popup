@@ -1,0 +1,14 @@
+{
+  "name": "angular-popup",
+  "version": "1.0.6",
+  "main": "angular-popup.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "*",
+    "jquery": "*"
+  }
+}
